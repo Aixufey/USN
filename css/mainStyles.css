@@ -9,8 +9,10 @@ body {
 }
 /**********************CLASS SELECTORS**********************/
 .top-container {
-	background-color: rgba(0,0,0,.20);
+	background-color: white;
 	height: 60px;
+	margin: left;
+
 }
 .middle-container {
 	display: block;
@@ -21,6 +23,13 @@ body {
 	color: white;
 	font-family: verdana,arial;
 }
+div.middle-container h1 {
+	font-size: 4em;
+}
+div.middle-container h5 {
+	font-size: 1em;
+}
+
 .bottom-container {
 	display: block;
 	position: relative; bottom: 100px;left: 0;right: 0; top: 1680px;
@@ -60,7 +69,6 @@ footer {
 	padding: 3px;
 	color: black;
 	font-size: 10px;
-
 }
 /**********************CLASS SELECTORS**********************/
 
@@ -118,10 +126,10 @@ li a{
 	text-decoration: none;
 }
 a:link {
-	color: white;
+	color: black;
 }
 a:visited {
-	color: white;
+	color: black;
 }
 a:hover {
 	color: grey;
