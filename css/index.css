@@ -1,0 +1,178 @@
+/* CSS RESET CODE
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*/
+body {
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 1574.3px 2800px;
+	margin: 0;
+	padding: 0;
+	max-width: 1280px;
+	min-width: 1024px;
+	color: white;
+	font-family: verdana,arial;
+}
+.home-top{
+	background-color: white;
+	position: relative;
+	height: 80px;
+	max-width: 1280px;
+	min-width: 1024px;
+}
+div.home-top #logi {
+	display: block;
+	position: relative;
+	height: 25px;
+	padding: 0 20px 0 20px;
+}
+div.home-top #topnav {
+	height: 100px;
+	max-width: 1280px;
+	min-width: 1024px;
+}
+div.home-top ul {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+div.home-top li{
+	float: left;
+	list-style-type: none;
+	padding: 20px 0px 20px 0px;
+	margin: 10px 0 10px;
+}
+div.home-top a {
+	text-decoration: none;
+	padding: 10px 50px 10px 50px;
+	margin: 10px 10px 10px 10px;
+}
+#topnav a:link {
+	color: black;
+}
+#topnav a:visited {
+	color: black;
+}
+#topnav a:hover {
+	color: grey;
+}
+#topnav a:active {
+	color: grey;
+}
+.home-intro {
+	position: relative;
+	max-width: 1280px;
+	min-width: 1024px;
+}
+div.home-intro h1, h5 {
+	display: block;
+	position: relative;
+	text-align: center;
+	max-width: 500px;
+	min-width: 500px;
+	left: 400px;
+	margin-top: 80px;
+}
+div.home-intro #mavic2 {
+	display: block;
+	position: relative;
+	width: 500px;
+	left: 400px;
+	padding: 50px 0 50px 0;
+}
+.home-middle {
+	position: relative;
+	max-width: 1280px;
+	min-width: 1024px;
+}
+div.home-middle p {
+	display: block;
+	position: relative;
+	text-align: center;
+	max-width: 500px;
+	min-width: 500px;
+	left: 400px;
+}
+div.home-middle #text1 p {
+	display: block;
+	position: relative;
+	left: 10px;
+	padding: 250px 0 50px 0;
+	opacity: 85%;
+	font-size: 0.8em;
+}
+div.home-middle #text2 p {
+	display: block;
+	position: relative;
+	left: 10px;
+	padding: 250px 0 50px 0;
+	opacity: 85%;
+	font-size: 0.8em;
+}
+div.home-middle #text3 p {
+	display: block;
+	position: relative;
+	left: 10px;
+	padding: 250px 0 50px 0;
+	opacity: 85%;
+	font-size: 0.8em;
+}
+div.home-middle strong {
+	font-size: 1.5em;
+}
+.home-product {
+	position: relative;
+	max-width: 1280px;
+	min-width: 1024px;
+	background-color: white ;
+	color: black;
+}
+div.home-product h1 {
+	display: block;
+	position: relative;
+	text-align: center;
+	opacity: 65%;
+	margin: 900px 0 100px 0;
+	padding-top: 20px;
+}
+div.home-product .home-row { 
+	position: relative;
+	font-size: 2em;
+	opacity: 65%;
+	text-align: center;
+}
+div.home-product .videoprod {
+	display: block;
+	position: relative;
+	width: 100%
+}
+div.home-product .enterprise {
+	display: block;
+	position: relative;
+	width: 100%;
+	}
+div.home-product .agricul {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.home-bottom {
+	position: relative;
+	background-color: white;
+}
+div.home-bottom footer {
+	color: black;
+	display: block;
+	position: relative;
+	text-align: center;
+	padding: 20px 50px;
+	font-size: 8px; 
+}
