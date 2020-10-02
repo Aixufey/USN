@@ -1,0 +1,90 @@
+
+body {
+    margin: auto; 
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	background-color: white;
+	height: 50px;
+}
+
+li  {
+	display: inline;
+}
+
+li a {
+padding: 15px 50px;
+
+}
+
+.nav {
+    background-color: white;
+	height: 60px;
+	font-family: verdana;
+    font-weight: bolder;
+}
+
+.h1 {
+	margin: 25px;
+	font-size: 2.5em;
+	color: white;
+	font-weight: lighter;
+}
+
+.nav a:link {
+	color: black;
+	text-decoration: none;
+}
+.nav a:visited {
+	color: black;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: grey;
+	text-decoration: none;
+}
+.nav a:active {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav {
+    background-color: white;
+	height: 60px;
+	font-family: verdana;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.productfonts {
+    color: white; 
+    margin-left: 25px;
+}
+
+.supplierlogo {
+display: block;
+    position: relative;
+    height: 25px;
+    padding: 0 20px 0 20px;
+}
+
+#phantom { 
+	color: white;
+	border: 5px solid grey;
+	margin-left: 25px;
+  }
+
+  #robo { 
+	color: white;
+	border: 5px solid grey;
+	margin-left: 25px;
+  }

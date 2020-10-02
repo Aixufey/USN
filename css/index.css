@@ -12,19 +12,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
-	background-size: 1574.3px 2800px;
+	background-attachment: fixed;
+	background-size: cover;
 	margin: 0;
 	padding: 0;
-	max-width: 1280px;
-	min-width: 1024px;
 	color: white;
 	font-family: verdana,arial;
 }
 .home-top{
 	background-color: white;
 	position: relative;
-	height: 80px;
-	max-width: 1280px;
+	height: 60px;/*80px*/
+	width: 100%;
 	min-width: 1024px;
 }
 div.home-top #logi {
@@ -35,8 +34,9 @@ div.home-top #logi {
 }
 div.home-top #topnav {
 	height: 100px;
-	max-width: 1280px;
+	width: 100%;'
 	min-width: 1024px;
+	font-weight: bold;
 }
 div.home-top ul {
 	display: block;
@@ -48,7 +48,7 @@ div.home-top li{
 	float: left;
 	list-style-type: none;
 	padding: 20px 0px 20px 0px;
-	margin: 10px 0 10px;
+	/*margin: 10px 0 10px;*/
 }
 div.home-top a {
 	text-decoration: none;
@@ -69,7 +69,7 @@ div.home-top a {
 }
 .home-intro {
 	position: relative;
-	max-width: 1280px;
+	width: 100%;
 	min-width: 1024px;
 }
 div.home-intro h1, h5 {
@@ -90,7 +90,7 @@ div.home-intro #mavic2 {
 }
 .home-middle {
 	position: relative;
-	max-width: 1280px;
+	width: 100%;
 	min-width: 1024px;
 }
 div.home-middle p {
@@ -104,7 +104,7 @@ div.home-middle p {
 div.home-middle #text1 p {
 	display: block;
 	position: relative;
-	left: 10px;
+	text-align: center;
 	padding: 250px 0 50px 0;
 	opacity: 85%;
 	font-size: 0.8em;
@@ -112,7 +112,7 @@ div.home-middle #text1 p {
 div.home-middle #text2 p {
 	display: block;
 	position: relative;
-	left: 10px;
+	text-align: center;
 	padding: 250px 0 50px 0;
 	opacity: 85%;
 	font-size: 0.8em;
@@ -120,7 +120,7 @@ div.home-middle #text2 p {
 div.home-middle #text3 p {
 	display: block;
 	position: relative;
-	left: 10px;
+	text-align: center;
 	padding: 250px 0 50px 0;
 	opacity: 85%;
 	font-size: 0.8em;
@@ -130,10 +130,11 @@ div.home-middle strong {
 }
 .home-product {
 	position: relative;
-	max-width: 1280px;
+	width: 100%;
 	min-width: 1024px;
 	background-color: white ;
 	color: black;
+	text-align: center;
 }
 div.home-product h1 {
 	display: block;
@@ -142,12 +143,14 @@ div.home-product h1 {
 	opacity: 65%;
 	margin: 900px 0 100px 0;
 	padding-top: 20px;
+	width: 100%;
 }
-div.home-product .home-row { 
+div.home-product .home-row 8 
 	position: relative;
 	font-size: 2em;
 	opacity: 65%;
 	text-align: center;
+	width: 100%;
 }
 div.home-product .videoprod {
 	display: block;
@@ -167,6 +170,8 @@ div.home-product .agricul {
 .home-bottom {
 	position: relative;
 	background-color: white;
+	width: 100%;
+	min-width: 1024px;
 }
 div.home-bottom footer {
 	color: black;
