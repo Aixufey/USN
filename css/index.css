@@ -145,7 +145,7 @@ div.home-product h1 {
 	padding-top: 20px;
 	width: 100%;
 }
-div.home-product .home-row 8 
+div.home-product .home-row { 
 	position: relative;
 	font-size: 2em;
 	opacity: 65%;
